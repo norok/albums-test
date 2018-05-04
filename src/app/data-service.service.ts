@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
-import { toPromise } from 'rxjs';
 
 @Injectable()
 export class DataServiceService {
@@ -20,8 +19,8 @@ export class DataServiceService {
 
   private transformData(response) {
     let data = [];
-    let albums = {};
     let returnData = [];
+    const albums = {};
 
     data = JSON.parse(response._body).reverse();
 
