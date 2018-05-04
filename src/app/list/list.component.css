@@ -4,7 +4,9 @@ ul {
 }
 
 ul > li {
-  padding: 20px;
+  padding: 1.5%;
+  display: inline-block;
+  width: 30%;
 }
 
 ul:nth-child(1) {
