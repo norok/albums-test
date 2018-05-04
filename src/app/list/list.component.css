@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li {
+  padding: 20px;
+}
+
+ul:nth-child(1) {
+  border: 1px solid green;
+}
+
+ul:nth-child(2) {
+  border: 1px solid blue;
+}
+
+ul:nth-child(3) {
+  border: 1px solid purple;
+}
+
+h4 {
+  margin-top: 0;
+}

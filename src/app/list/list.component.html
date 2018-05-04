@@ -1,0 +1,6 @@
+<ul *ngFor="let album of data">
+  <li *ngFor="let photos of album; let i = index" id="album-{{ i }}">
+      <h4>{{ photos.title }}</h4>
+      <img src="{{ photos.thumbnailUrl }}" alt="{{ photos.title }}">
+  </li>
+</ul>
